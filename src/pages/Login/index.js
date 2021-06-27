@@ -19,7 +19,7 @@ const LogIn = () => {
                 }
                 console.log(response.user.uid);
                     setUser(response.user.uid);
-                    window.location.assign("http://localhost:3000/homepage")
+                    window.location.assign("http://fauth.herokuapp.com/homepage");
 
             })
 
